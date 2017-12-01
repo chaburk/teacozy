@@ -77,3 +77,24 @@ nav a {
   margin: 0;
   padding: 10px;
 }
+
+/* Tea Content */
+.main tea {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.image img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
