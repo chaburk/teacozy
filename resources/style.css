@@ -46,3 +46,8 @@ nav a {
   color: seashell;
   opacity: 0.9;
 }
+
+/* Main Content */
+.main-mission {
+  padding-top: 71px;
+}
