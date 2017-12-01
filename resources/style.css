@@ -8,16 +8,41 @@ body {
   text-align center;
 }
 
-/*
+/* Header Content */
 header {
   display: flex;
+  align-items: center;
   position: fixed;
   width: 100%;
   height: 69px;
-
+  border-bottom: 1px solid seashell;
 }
 
+/* Logo Content */
 .logo {
   display: flex;
+  padding-left: 10px;
+  flex-grow: 1;
+}
+
+.logo img {
   height: 50px;
+  opacity: 0.9;
+}
+
+/* Navigation */
+header nav {
+  display: flex;
+  padding-right: 10px;
+}
+
+nav span {
+  text-decoration: underline;
+  position: inline-block;
+  padding: 20px 10px;
+}
+
+nav a {
+  color: seashell;
+  opacity: 0.9;
 }
